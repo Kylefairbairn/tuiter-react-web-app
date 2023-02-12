@@ -1,0 +1,114 @@
+
+
+.twitter-icon {
+    color: rgb(29, 161, 242);
+
+}
+
+.tweet-more-options {
+    color: darkgray;
+    padding-left: 75px;
+
+}
+
+.btn-secondary {
+    background: black !important;
+}
+
+
+
+.max {
+    width:100%
+}
+
+/*Taken from:*/
+/*https://stackoverflow.com/questions/32951935/bootstrap-list-shrink-and-eliminate-border*/
+
+.list-group-item {
+    border:0 !important;
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+}
+
+.wrapper {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+
+.active {
+    color: black !important;
+    background: whitesmoke !important;
+    width:100%;
+}
+
+.hash-tag-color {
+    color: black;
+}
+
+
+input {
+    width: 100%;
+    border: none;
+    background: whitesmoke;
+    padding-left: 50px;
+
+}
+
+.btn-primary {
+    background: rgb(29, 161, 242) !important;
+}
+
+.more-dots {
+    position: absolute;
+    color: black;
+    margin-left: -17px;
+}
+
+.verified-styling {
+    background: black;
+    border-radius: 50px;
+    color:white;
+
+}
+
+.wd-twitter-blue {background-color: rgb(29, 161, 242);}
+
+.wd-fg-color-grey {color: rgb(110, 118, 125);}
+
+.wd-float-left {
+    float: left;
+}
+
+
+.search-icon {
+    position: absolute;
+    padding: 5px 5px 5px 5px;
+}
+
+.gear-icon {
+    color: black;
+    background: white;
+
+}
+
+.wd-nav-tabs {
+    padding: 0;
+}
+
+.nav-link {
+    color: grey !important;
+}
+
+.hr {
+    color: rgb(29, 161, 242);
+    border-top: 5px solid;
+    width: 75px;
+}
+
+
+
+
+

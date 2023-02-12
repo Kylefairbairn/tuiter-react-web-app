@@ -1,10 +1,52 @@
-html * {
-    background-color: black;
-    font-family: Roboto, sans-serif;
+
+
+.blue {background: #0c63e4}
+.green {background: green}
+.red {background: red}
+
+
+/*html * {*/
+/*    background-color: black;*/
+/*    font-family: Roboto, sans-serif;*/
+/*}*/
+
+
+.wrapper {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    outline: gray;
+
 }
 
 
-.wd-twitter-blue {color: rgb(29, 161, 242);}
+input {
+    margin: 0 2px 0 2px;
+    width: 100%;
+    border: none;
+    background: whitesmoke;
+    padding-left: 50px;
+}
+
+.hash-tag-color {
+    color: black;
+}
+
+
+.more-dots {
+    position: absolute;
+    color: white;
+    margin-left: -20px;
+}
+
+.verified-styling {
+    background: black;
+    border-radius: 50px;
+    color:white;
+
+}
+
+.wd-twitter-blue {background-color: rgb(29, 161, 242);}
 
 .wd-margin-left { margin-left: 16px}
 
@@ -17,29 +59,30 @@ html * {
 }
 
 .wd-search-bar {
-    background: rgb(47, 51, 54)
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
-    no-repeat 16px;
-    width: 500px;
-    border-radius: 100px;
-    border-width: 0;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 50px;
 }
 
-.icon {
+.wd-search-bar2 {
     position: absolute;
-    display: block;
-    top: 4px;
-    right: 4px;
-    width: 14px;
-    height: 15px;
-    background: url("https://abs.twimg.com/a/1374049044/t1/img/twitter_web_sprite_icons.png") -20px -710px no-repeat transparent;
-    border: none;
-    text-indent: -200px;
-    padding: 0;
-    cursor: pointer;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 50px;
+}
+
+.search-icon {
+    position: absolute;
+    padding: 5px 5px 5px 5px;
+}
+
+.gear-icon {
+    position: absolute;
+    padding: 0 2px 0 510px;
+    color: rgb(29, 161, 242);
+
+
 }
 
 .wd-explore-setting {
