@@ -4,8 +4,6 @@ import WhoToFollowList from "../WhoToFollowList/index.js";
 import ExploreComponent from "./ExploreComponent.js";
 
 
-
-
 function explore() {
     $('#wd-explore').append(`
   <div class="row mt-2">
