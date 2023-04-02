@@ -1,4 +1,4 @@
-import PostSummaryList from "../PostSummaryList/index.js";
+import PostSummaryList from "../PostSummaryList";
 
 
 const ExploreComponent = () => {
@@ -41,7 +41,7 @@ const ExploreComponent = () => {
             
                   <div class="position-relative">
                 <img class="w-100 mt-2"
-                     src="../../images/download.jpg" alt="">
+                     src="../../../images/download.jpg" alt="">
                 <h2 class="position-absolute bottom-0 ms-2 text-light">
                     SpaceX's Spaceship
                 </h2>

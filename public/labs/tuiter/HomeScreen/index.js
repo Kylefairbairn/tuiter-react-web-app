@@ -1,7 +1,6 @@
-
-import NavigationSidebar from "../NavigationSideBar/index.js";
-import WhoToFollowList from "../WhoToFollowList/index.js";
-import ExploreComponent from "./ExploreComponent.js";
+import NavigationSidebar from "../NavigationSideBar";
+import WhoToFollowList from "../WhoToFollowList";
+import PostList from "../PostList";
 
 
 function explore() {
@@ -11,7 +10,7 @@ function explore() {
      ${NavigationSidebar()}
    </div>
    <div class="col-10 col-lg-7 col-xl-6 ">
-   ${ExploreComponent()}
+     ${PostList()}
    </div>
    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 ">
     ${WhoToFollowList()}
